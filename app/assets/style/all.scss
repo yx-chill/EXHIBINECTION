@@ -1,0 +1,19 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@import 'base/base';
+
+@import 'helpers/mixin';
+
+@import 'components/banner';
+@import 'components/swiper';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/nav';
+@import 'layout/subscript';
+
+@import 'pages/index';
+@import 'pages/detail';
+@import 'pages/product';

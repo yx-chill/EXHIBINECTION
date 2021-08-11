@@ -1,0 +1,22 @@
+.popular {
+    img {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .bg-info {
+        position: relative;
+    }
+
+    @include pad {
+        .date {
+            position: absolute;
+        }
+    }
+}
+
+.live-block {
+    height: 480px;
+    background: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=true') center;
+    background-size: cover;
+}
